@@ -19,10 +19,6 @@ html {
 }
 
 .container {
-  /*Vai ocupar esse espaço determinado de acordo com o tamanho da tela*/
-  width: 100vw;
-  height: 100vh;
-
   display: flex; /*Vai deixar os conteudos flexiveis*/
   align-items: center; /*Alinhar os itens entre eles mesmos*/
   justify-content: center; /*Justificar o conteudo ao centro*/
@@ -84,6 +80,10 @@ html {
 
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29);
 
+}
+
+.links-container a {
+  text-decoration: none;
 }
 
 /*houver = mouse passa por cima do elemento*/
